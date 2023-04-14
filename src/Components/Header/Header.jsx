@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Header.css"
-import HeaderImg  from "../../assets/headerImg.png"
+import HeaderImg  from "../../assets/matey-standing-man.png"
 const Header = () => {
   return (
     <main>
+      <img src={HeaderImg} alt="right-img" className='HeaderImg'/>
       <div className='descriptionContainer'>
         <h1>
           Hi , I'm <span>
@@ -21,7 +22,6 @@ const Header = () => {
           That part which user see and Interact with
         </p>
       </div>
-      <img src={HeaderImg} alt="right-img" className='HeaderImg'/>
     </main>
   )
 }

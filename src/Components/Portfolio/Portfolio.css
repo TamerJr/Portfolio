@@ -1,0 +1,29 @@
+section.Portfolio_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem 0;
+    flex-wrap: wrap;
+    padding: 8rem 0;
+    gap: 3rem;
+    background-color: #0d5cc392;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+}
+.article_Portfolio{
+    width :100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+section.Portfolio_section  h1{
+    font-size: var(--mainfont-size);
+}
+@media screen and (max-width: 780px) {
+    section.Portfolio_section{
+        padding: 15rem 0;
+    }
+}
