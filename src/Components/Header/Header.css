@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+}
+main h1 {
+    font-size: var(--mainfont-size);
+    
+}
+main h1 span{
+    color: rgba(11, 11, 240, 0.72);
+}
+main h2 {
+    font-size: var(--subfont-size);
+}
+main h2 span{
+    color: rgb(0, 21, 255);
+}
+main p {
+    font-size: var(--text-size);
+    line-height: 1.4;
+}
+@media screen and (max-width :780px){
+    .HeaderImg{
+        display: none;
+    }
+    .descriptionContainer{
+        text-align: center;
+    }
+}

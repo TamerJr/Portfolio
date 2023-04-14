@@ -1,0 +1,70 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+img.Logo {
+  width: 170px;
+}
+.Navigation-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 5rem;
+  color: rgb(17, 17, 200);
+}
+ul li {
+  cursor: pointer;
+}
+.Mobile-menu {
+  position: absolute;
+  right: -100%;
+  transition: ease-in-out 400ms;
+}
+.Toggle-mobile-menu {
+  display: none;
+}
+a.download-Button-Desktop {
+    display: block;
+  }
+@media screen and (max-width: 780px) {
+  .Mobile-menu {
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    transition: ease-in-out 2000ms;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    padding-top: 4rem;
+    right: 0px;
+    background-color: #1e2f85;
+  }
+  a.downloadButton {
+    display: block;
+  }
+  .Mobile-list {
+    list-style: none;
+    display: block;
+    height: 100%;
+    margin-top: 5rem;
+    padding-left: 0;
+    color: white;
+    line-height: 4.9;
+  }
+  a.download-Button-Desktop {
+    display: none;
+  }
+  .Toggle-mobile-menu {
+    display: block;
+  }
+  .Navigation-Desktop {
+    display: none;
+  }
+  ul li {
+    text-align: center;
+  }
+}
