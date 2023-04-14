@@ -1,0 +1,103 @@
+.PortfolioCard {
+  height: 500px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.451);
+  overflow: hidden;
+  transition: 400ms ease-in-out;
+}
+.PortfolioCard:hover{
+    transform: scale(110%);
+}
+figure {
+  width: 100%;
+  height: 250px;
+  margin: 0;
+}
+figure img {
+  width :100%;
+  object-fit: cover;
+  height: 100%;
+  margin-bottom: 0;
+}
+figure figcaption{
+  margin-top: 0;
+  background-color: #a08f8f26;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .2rem 0;
+  font-size: 18px;
+}
+.action-buttons {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.621);
+  top: 0;
+  width: 100%;
+  height: 250px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  opacity: 0;
+  transition: 500ms ease-in-out;
+}
+.action-buttons:hover {
+  right: 0;
+  opacity: 1;
+}
+.action-btn {
+  border: 1px solid rgba(255, 255, 255, 0.612);
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0;
+}
+.action-btn  a{
+  width: 40px;
+  height: 40px;
+}
+
+.action-btn:hover {
+  background-color: rgba(0, 128, 255, 0.663);
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.PortfolioCard p {
+  text-align: center;
+  width: 80%;
+  margin: 3rem 0 0 0 ;
+
+}
+
+.SeeMore {
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms ease-in-out;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.321);
+}
+.SeeMore a{
+  font-size: 15px;
+}
+.SeeMore:hover {
+    background-color: #0b4096e2;
+}
+.SeeMore:hover *{
+      color: white;
+
+  }
