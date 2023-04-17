@@ -4,7 +4,7 @@ import { data } from "../../Utilies";
 import "./Skills.css";
 const Skills = () => {
   return (
-    <section className="skills-section">
+    <section className="skills-section" id="skills">
       <h2>Skills</h2>
       <div className="Section-Data">
         <div className="skill-container">

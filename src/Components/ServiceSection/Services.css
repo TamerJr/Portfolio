@@ -1,0 +1,43 @@
+.ServiceSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.ServiceContainer {
+  width: 310px;
+  text-align: center;
+  padding: 1rem 2rem;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.125);
+  position: relative;
+}
+.ServiceSection h2 {
+  font-size: var(--subfont-size);
+}
+.ServiceContainer h4 {
+  font-size: 24px;
+}
+.ServiceContainer p {
+  font-size: var(--text-size);
+}
+.servicesContainer {
+  gap: 3rem;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ServiceContainer p {
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.669);
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 0;
+}

@@ -3,7 +3,7 @@ import "./Header.css"
 import HeaderImg  from "../../assets/matey-standing-man.png"
 const Header = () => {
   return (
-    <main>
+    <main >
       <img src={HeaderImg} alt="right-img" className='HeaderImg'/>
       <div className='descriptionContainer'>
         <h1>

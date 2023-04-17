@@ -69,15 +69,18 @@ figure figcaption{
 }
 
 .description {
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+.Desc-text{
+  margin: 1rem;
+}
 .PortfolioCard p {
   text-align: center;
   width: 80%;
-  margin: 3rem 0 0 0 ;
 
 }
 
@@ -87,17 +90,24 @@ figure figcaption{
   position: absolute;
   bottom: 20px;
   border: none;
+  width: 130px;
   cursor: pointer;
+  font-size: medium;
   transition: 400ms ease-in-out;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.321);
+  font-family: ubuntu;
 }
-.SeeMore a{
-  font-size: 15px;
+a.Item-Description{
+  color: rgb(38, 38, 176);
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+  left :30%;
 }
 .SeeMore:hover {
     background-color: #0b4096e2;
 }
-.SeeMore:hover *{
+.SeeMore:hover {
       color: white;
 
   }

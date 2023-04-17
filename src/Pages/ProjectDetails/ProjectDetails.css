@@ -1,0 +1,98 @@
+.ProjectPage-Container{
+    text-align: center;
+}
+
+.ProjectDetails{
+
+    margin: 2rem;
+}
+.ProjectDetailsImg{
+    object-fit: cover;
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.249);
+}
+.ProjectDetails-header{
+    display: flex;
+    gap: 2rem;
+}
+.Tech-List{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem ;
+    justify-content: center;
+    align-items: center;
+}
+.tech-color{
+    color: rgb(7, 118, 130);
+}
+/* div.EleDetails ul li {
+   padding: 0;
+} */
+
+div.EleDetails ul li {
+    font-size: 18px;
+    line-height: 1.7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+    list-style: none;
+}
+div.EleDetails ul li:last-of-type{
+    border-bottom: none;
+}
+div.EleDetails ul li dd{
+    color: rgba(18, 17, 17, 0.812);
+    font-size: 15px;
+}
+
+.ProjectDetails p{
+    margin-left: 4rem;
+}
+.ProjectDetails h4 {
+    font-size: 19px;
+}
+.Info {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Info .ProjectLinks{
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+.Info .Links-Desc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    display: block;
+}
+@media screen and (max-width: 880px) {
+    .ProjectDetails-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+
+    }
+    .EleDetails ul {
+        padding: 0;
+    }
+}
+@media screen and (max-width :540px) {
+    .Info{
+        flex-direction: column;
+    }
+    
+}

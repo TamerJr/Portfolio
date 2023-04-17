@@ -25,16 +25,15 @@ const PortfolioCard = ({Project}) => {
         </div>
       </div>
       <div className="description">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
-          modi.
-        </p>
-        <div className="SeeMore">
-
-        <Link to="/">
-          More Details
-        </Link>
+        <div className="Desc-text">
+          <h4>Description</h4>
+          <p>{Project.description?.substring(0,100)} ...</p>
         </div>
+        <Link to={`/projectsdetails/${Project.id}`} className="Item-Description">
+        <button className="SeeMore">
+          More Details
+        </button>
+        </Link>
       </div>
     </article>
   );

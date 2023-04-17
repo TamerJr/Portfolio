@@ -3,6 +3,16 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  position: sticky;
+  z-index: 100;
+}
+.StickyBoy{
+  top: 8px;
+  background-color: rgb(49, 107, 216);
+}
+.StickyBoy a{
+  color: rgb(255, 255, 255) !important;
+
 }
 img.Logo {
   width: 170px;
@@ -26,9 +36,28 @@ ul li {
   display: none;
 }
 a.download-Button-Desktop {
-    display: block;
-  }
-@media screen and (max-width: 780px) {
+  display: block;
+}
+.Navigation-list li a{
+  color: #1e2f85;
+
+}
+.downloadButton {
+  color: rgb(254, 254, 254);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  background-color: rgb(22, 105, 169);
+  padding: 5px 10px 8px ;
+  transition: 300ms ease-in-out;
+}
+.downloadButton:hover{
+  color: rgb(22, 105, 169) !important;
+  border: 1px solid rgb(22, 105, 169) ;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px 8px ;
+}
+@media screen and (max-width: 880px) {
   .Mobile-menu {
     width: 200px;
     height: 100vh;
@@ -43,13 +72,26 @@ a.download-Button-Desktop {
     right: 0px;
     background-color: #1e2f85;
   }
-  a.downloadButton {
-    display: block;
+  .DownloadCVList{
+    padding: 0;
+    height: 30px;
+    /* overflow: hidden; */
   }
+    .DownloadCVList a.downloadButton{
+    height: 100%;
+    width: 100%;
+    padding: 10px 5px ;
+
+
+
+    
+  }
+
   .Mobile-list {
     list-style: none;
     display: block;
     height: 100%;
+    width: 30%;
     margin-top: 5rem;
     padding-left: 0;
     color: white;
@@ -67,4 +109,10 @@ a.download-Button-Desktop {
   ul li {
     text-align: center;
   }
+}
+
+@media screen and (max-width: 450px) {
+    .Mobile-menu {
+      width: 100%;
+    }
 }
