@@ -3,7 +3,6 @@ import {myPorjects} from '../../Data'
 import "./Portfolio.css"
 import PortfolioCard from "../PortfolioCard/PortfolioCard";
 const Portfolio = () => {
-  console.log(myPorjects)
   return (
     <section className="Portfolio_section" id="portfolio">
       <h2>Works</h2>

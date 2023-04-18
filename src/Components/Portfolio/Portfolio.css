@@ -4,7 +4,6 @@ section.Portfolio_section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 5rem 0;
     flex-wrap: wrap;
     padding: 8rem 0;
     gap: 3rem;

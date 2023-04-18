@@ -29,7 +29,7 @@ const Service = () => {
     },
   ];
   return (
-    <section className="ServiceSection">
+    <section className="ServiceSection" id="services">
       <h2>Services</h2>
       <div className="servicesContainer">
         {services.map((service, indx) => (
