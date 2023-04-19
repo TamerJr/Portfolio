@@ -1,6 +1,6 @@
 .PortfolioCard {
   height: 500px;
-  width: 300px;
+  max-width: 300px;
   background-color: #fff;
   position: relative;
   border-radius: 15px;
@@ -111,3 +111,6 @@ a.Item-Description{
       color: white;
 
   }
+/* @media screen and (max-width:) {
+  
+} */

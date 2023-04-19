@@ -7,10 +7,10 @@
   margin-bottom: 2rem;
 }
 .ServiceContainer {
-  width: 310px;
+  width: 290px;
   text-align: center;
   padding: 1rem 2rem;
-  height: 250px;
+  height: 300px;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.125);
   position: relative;
@@ -40,4 +40,11 @@
   text-align: center;
   top: 40%;
   left: 0;
+}
+
+@media screen and (max-width :440px) {
+  .About-SectionDetails div{
+    margin: auto 0px;
+  }
+  
 }

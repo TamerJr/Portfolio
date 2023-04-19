@@ -26,6 +26,7 @@
 
 .About-SectionDetails div {
   max-width: 310px;
+
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: auto;
@@ -77,8 +78,9 @@
   }
 
   .About-SectionDetails div {
-    width: 100%;
+    width: 95%;
     margin-bottom: 30px;
+    padding: 0px;
   }
 }
 .react-whatsapp-widget-button {

@@ -5,7 +5,7 @@ section.Portfolio_section {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 8rem 0;
+    padding: 8rem 0rem;
     gap: 3rem;
     background-color: #0d5cc392;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
@@ -16,6 +16,7 @@ section.Portfolio_section {
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    padding: 5rem 0rem;
     flex-wrap: wrap;
 }
 section.Portfolio_section  h2{
