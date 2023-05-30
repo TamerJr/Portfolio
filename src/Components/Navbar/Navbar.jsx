@@ -3,7 +3,7 @@ import "./Navbar.css";
 import Logo from "../../assets/Logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiFillCloseCircle } from "react-icons/ai";
-import CV from "../../assets/FinalCut.pdf";
+import CV from "../../assets/TamerCV.pdf";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
