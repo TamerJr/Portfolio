@@ -3,7 +3,7 @@ import "./Navbar.css";
 import Logo from "../../assets/Logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiFillCloseCircle } from "react-icons/ai";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/FinalCut.pdf";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -47,7 +47,7 @@ const Navbar = () => {
         download="TamerCV"
         className="downloadButton download-Button-Desktop "
       >
-        Download
+        Download CV
       </a>
       <div className="Toggle-mobile-menu">
         <RxHamburgerMenu size={25} onClick={handleToggle} />
@@ -73,7 +73,7 @@ const Navbar = () => {
             </li>
             <li className="DownloadCVList">
               <a href={CV} download="TamerCV" className="downloadButton">
-                Download
+                Download CV
               </a>
             </li>
           </ul>
